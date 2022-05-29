@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "The Journey",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHOTTBBOXX/Carlos-Tumushabe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HHOTTBBOXX/Carlos-Tumushabe/issues"
+  },
+  "homepage": "https://HHOTTBBOXX.github.io/Portfolio",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
