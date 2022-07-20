@@ -720,7 +720,7 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 2 rem !important;
     text-align: center;
     padding-top: 3rem;
   }
@@ -920,7 +920,15 @@ section {
     width: 90% !important;
     margin: 0 auto !important;
   }
-
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits:
+  }
+  @keyframes spin {
+    0% { --rotate: 0deg}
+    100% {--rotate: 360deg}
+  }
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
